@@ -101,8 +101,13 @@ public class Sokoban {
     }
     public static void movePlayer() {
         if (move == 'r') {
-            System.out.println("Restarted!");
-            Board = ResetBoard;
+            System.out.println("Restart!");
+            for(int i =0; i < Board.length; i++) {
+                for (int j = 0; j < Board[0].length; j++) {
+                    Board[i][j] = ResetBoard[i][j];
+                }
+            }
+            
             playerY = 1;
             playerX = 6;
             moves = 0;
