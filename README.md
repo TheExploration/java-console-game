@@ -1,4 +1,4 @@
 # java-console-game
-Java Console Text Sokoban
+Sokoban with text in the Java Console 
 
-Made in 1.5 hours
+Made for AP Computer Science
